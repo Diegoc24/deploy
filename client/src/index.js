@@ -6,16 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import {store} from './store/store';
 import {BrowserRouter} from "react-router-dom"
-import {MuiPickersUtilsProvider} from "@material-ui/pickers"
-import DateFnsUtils from "@date-io/date-fns"
-import esLocale from "date-fns/locale/es"
+
 ReactDOM.render(
   <Provider store={store}>
-  <MuiPickersUtilsProvider utils={DateFnsUtils} locale={esLocale}>
+  
   <BrowserRouter>
   <App />
   </BrowserRouter>
-  </MuiPickersUtilsProvider>
+
   </Provider>,
   document.getElementById('root')
 );
