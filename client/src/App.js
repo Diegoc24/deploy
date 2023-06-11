@@ -6,7 +6,7 @@ import Detail from "./components/Detail/Detail";
 import Form from "./components/form/Form";
 import GameCreated from "./components/GameCreated/GameCreated";
 import axios from "axios";
-axios.defaults.baseURL = "https://deploy-production-6005.up.railway.app/"
+axios.defaults.baseURL = "https://deploy-production-7e63.up.railway.app/"
 
 function App() {
  
