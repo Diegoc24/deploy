@@ -30,9 +30,10 @@
  }
 
  .LinkIngreso{
+    position: absolute;
     text-decoration: none;
     display: flex;
-   margin: 0 auto;
+   margin: 0 44%;
     color: white;
     width: 200px;
     border-radius: 50px;
@@ -42,8 +43,8 @@
 }
 .LinkIngreso svg{
     position: absolute;
-    top: 505px;
-    margin: 1px -5px;
+    top: -5px;
+    left: -3px;
    height: 60px;
    width: 60px;
    fill: rgb(78, 78, 78);
