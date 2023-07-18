@@ -70,7 +70,7 @@ const handlerDefault = (e)=>{
 
 return (
     <div className="container-home">
-        
+        <img className="container_port" src="https://www.algoritmolegal.com/wp-content/uploads/2022/01/Guia-legal-de-los-videojuegos.jpg" alt="portada" key={"portada"}/>
         <div className="navBar">
         <SearchBar/>
         
@@ -105,7 +105,10 @@ return (
         
         <div className="buttonReset">
             <button onClick={(e)=>handlerDefault(e)}>
-                <img src="https://cdn-icons-png.flaticon.com/512/25/25051.png" alt="reset"/>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-clockwise" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z"/>
+  <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z"/>
+</svg>
             </button>
             
             </div>

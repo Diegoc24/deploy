@@ -7,29 +7,29 @@
     padding: 15px;
     box-sizing: border-box;
     width: calc(43% - 15px);
-    background-color: rgba(255, 255, 255, 0.158);
-    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
     margin: 20px 40px;
 }
 .card-container div {
     margin-bottom: 40px;
 }
 .card-container{
-    border: solid rgb(209, 209, 209) 1px;
+    border: 1px solid rgb(168, 168, 168);
 }
 .card-container img {
     height: 400px;
     width: 600px; 
     max-width: 90%;
     border-radius: 20px;
-    border: solid white 2px;
-    transition: 0.3s;
+    border: solid rgb(173, 173, 173) 1px;
+   
 }
 .card-container img:hover{
-    border: solid rgb(39, 107, 0) 5px;
+    border: solid rgb(0, 0, 0) 1px;
 }
 .navCardContainer{
-    color: white;
+    color: rgb(29, 0, 0);
     font-size: 14px;
     text-decoration: none;
 }

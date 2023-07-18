@@ -1,11 +1,13 @@
 .searchBar button{
     border-radius: 4px;
     width: 60px;
-    background-color: rgb(197, 213, 243);
+    background-color: rgb(224, 224, 224);
     transition: 0.5s;
 }
 .searchBar button:hover{
-    background-color: rgb(77, 121, 202);
+    background-color: rgba(0, 0, 0, 0.404);
+    color: white;
+    cursor: pointer;
 }
 .searchBar input{
     border-radius: 5px;
