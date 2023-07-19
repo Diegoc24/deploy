@@ -9,7 +9,7 @@ const {
 
 const {Pool} = pg
 
-const sequelize = new Sequelize("postgres://default:YsM0wqzX4cGH@ep-crimson-sea-232998.us-east-1.postgres.vercel-storage.com:5432/verceldb", {
+const sequelize = new Sequelize(process.env.POSTGRES_URL, {
   logging: false, // set to console.log to see the raw SQL queries
   native: false, // lets Sequelize know we can use pg-native for ~30% more speed
 });
