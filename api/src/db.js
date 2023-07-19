@@ -15,9 +15,7 @@ sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_
   native: false, // lets Sequelize know we can use pg-native for ~30% more speed
 });
 }else{
-  sequelize = new Pool({
-    connectionString: process.env.POSTGRES_URL + "?sslmode=require",
-  })
+  sequelize = new Sequelize(process.env.POSTGRES_URL)
 }
 const basename = path.basename(__filename);
 
