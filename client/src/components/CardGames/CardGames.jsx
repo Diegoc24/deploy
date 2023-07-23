@@ -11,8 +11,9 @@ const CardGames = ({background_image, name, genres,id}) =>{
         <div className="card-container">
             <div>
             <NavLink to={`/detail/${id}`} className={"navCardContainer"}>
-            <h1>{name}</h1>
+            
             <img src={background_image} alt={name} />
+            <h1>{name}</h1>
             <h3>{gen}</h3>
             </NavLink>
             </div>

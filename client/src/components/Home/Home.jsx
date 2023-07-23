@@ -70,7 +70,7 @@ const handlerDefault = (e)=>{
 
 return (
     <div className="container-home">
-        <img className="container_port" src="https://www.algoritmolegal.com/wp-content/uploads/2022/01/Guia-legal-de-los-videojuegos.jpg" alt="portada" key={"portada"}/>
+        <img className="container_port" src="https://wallpaperset.com/w/full/f/5/1/170494.jpg" alt="portada" key={"portada"}/>
         <div className="navBar">
         <SearchBar/>
         
@@ -119,9 +119,7 @@ return (
         </button>
         </div>
         
-        <div>
-        <Paginado numPage= {numPage} setCurrentPage={setCurrentPage}/>
-        </div>
+       
         <div>
             {
                 Object.keys(allVideoGames).length !== 0 ? currentGame.map((game) =>{
@@ -140,9 +138,12 @@ return (
                 <img src="https://i.gifer.com/3F3F.gif" alt="sonic"/>
                 </div>
             }
+            <div>
+        <Paginado numPage= {numPage} setCurrentPage={setCurrentPage}/>
+        </div>
         </div>
         
-
+        
     </div>
 )
 }

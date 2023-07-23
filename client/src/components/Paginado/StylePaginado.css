@@ -1,8 +1,8 @@
 
 .paginado{
-    background-color: rgb(206, 204, 204);
-    color: rgb(0, 0, 0);
-    font-size: 18px;
+    background-color: rgba(206, 204, 204, 0);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
     border: solid rgb(71, 71, 71) 1px;
     font-weight: 500;
     display: inline;
@@ -12,6 +12,7 @@
    padding-top: 3px;
    padding-bottom: 3px;
    transition: 0.8s;
+   margin: 20px -10px 20px -5px
    
 }
 .paginado:hover{

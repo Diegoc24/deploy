@@ -1,8 +1,6 @@
 .containerDetail{
-    background-image: url("https://wallpaperstock.net/wallpapers/thumbs1/33729hd.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
+    background-color: rgb(39, 39, 39);
+    color: white;
 }
 
 .backHome{
@@ -24,18 +22,7 @@
 .backHome img:hover{
     border: solid rgba(12, 255, 12, 0.651) 2px;
 }
-.containerId {
-    position: relative;
-    top: -75px;
-    color: white;
-    padding: 10px;
-   border: solid black 1px;
-    background-color: rgba(0, 0, 0, 0.767);
-    transition: 1s;
-}
-.containerId:hover{
-    color: rgba(12, 255, 12, 0.651);
-}
+
 
 .imageDetail{
     position: relative;
@@ -45,19 +32,23 @@
 .imageDetail:hover{
     width: calc(70%);
 }
-
+.platformDetail h2{
+    color: white;
+}
 .platformDetail div{
     display: inline;
+    color: white;
     
 }
 .platformDetail{
     color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.308);
+    background-color: rgba(0, 0, 0, 0.108);
     width: fit-content;
-    padding: 0px 20px;
+    padding: 10px 20px;
     border-radius: 10px;
-    border: solid rgba(0, 0, 0, 0.214) 2px;
+    
     margin: 0 auto;
+    margin-top: 10px;
 }
 
 .genresDetail{
@@ -65,14 +56,17 @@
     color: rgb(0, 0, 0);
     justify-items: center;
     margin: 10px auto;
-    background-color: rgba(0, 0, 0, 0.308);
-    border: solid rgba(0, 0, 0, 0.233) 1px;
+    background-color: rgba(0, 0, 0, 0.208);
+    padding: 5px;
     max-width: 400px;
 }
 .genresDetail h3{
     display: inline;
+    color: white;
 }
-
+.containerDescription h2{
+    color: white;
+}
 .containerDescription h4{
     position: relative;
     margin: 0 auto;
@@ -81,6 +75,7 @@
     overflow: auto;
     border: solid rgba(0, 0, 0, 0.334) 2px;
     background-color: rgba(0, 0, 0, 0.089);
+    color: white;
 }
 
 .containerDescription{
@@ -88,10 +83,13 @@
 }
 .releaseDetail h3{
     display: inline;
+    color: white;
 }
+
+
 .releaseDetail h4{
     display: inline;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     width: max-content;
     background-color: rgba(0, 0, 0, 0.075);
     padding: 4px;

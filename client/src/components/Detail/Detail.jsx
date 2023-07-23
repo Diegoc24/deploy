@@ -41,7 +41,7 @@ const GetPlat = ()=>{
             {
                Object.keys(game).length !== 0 ? 
                 <div>
-                <h2 className="containerId">ID: {game.id}</h2>
+                
              <h1>{game.name}</h1>
             <img className="imageDetail" src={game.background_image} alt={game.name}/>
             <div className="platformDetail">
