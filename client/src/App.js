@@ -6,7 +6,7 @@ import Detail from "./components/Detail/Detail";
 import Form from "./components/form/Form";
 import GameCreated from "./components/GameCreated/GameCreated";
 import axios from "axios";
-axios.defaults.baseURL = "https://backend-videogames-l2xp.onrender.com/"
+axios.defaults.baseURL = "https://backend-videogames-l2xp.onrender.com"
 
 function App() {
  
