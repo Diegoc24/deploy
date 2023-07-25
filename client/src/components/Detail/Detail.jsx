@@ -4,9 +4,10 @@ import { useDispatch, useSelector } from "react-redux";
 import { NavLink, useParams } from "react-router-dom";
 import { getDetailgame }  from "../../actions/actions";
 import "./StyleDetail.css"
+import loading from "../../Image/XDZT.gif"
 const Detail = ()=>{
+  
    
- 
     const {id} = useParams();
  
 
@@ -79,9 +80,9 @@ const GetPlat = ()=>{
             </div>
             : 
             <div className="loadingDetail">
-                <img src="https://i.gifer.com/3F3F.gif" alt="sonic"/>
-                <h1>Loading...</h1>
-                <img src="https://i.gifer.com/3F3F.gif" alt="sonic"/>
+                
+                <h1>Cargando...</h1>
+                <img src={loading} alt="sonic"/>
                 </div>
             }
             

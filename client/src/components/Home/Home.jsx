@@ -9,7 +9,7 @@ import CardGames from "../CardGames/CardGames";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./StyleHome.css"
-
+import loading from "../../Image/XDZT.gif"
 const Home = (props) =>{
     
     
@@ -133,9 +133,9 @@ return (
                     )
                     
                 }): <div className="loadingHome">
-                <img src="https://i.gifer.com/3F3F.gif" alt="sonic"/>
-                <h1>Loading...</h1>
-                <img src="https://i.gifer.com/3F3F.gif" alt="sonic"/>
+                
+                <h1>Cargando...</h1>
+                <img src={loading} alt="sonic"/>
                 </div>
             }
             <div>

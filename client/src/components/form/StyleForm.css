@@ -1,30 +1,32 @@
 
 .containerForm{
-    background-image: url("https://wallpaperaccess.com/full/5927911.gif");
-   background-size: contain;
-   height: 100vh;
+    background-color: rgb(34, 34, 34);
+   
+   height: 110vh;
     
 }
 .containerForm h2{
     color: white;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(54, 54, 54);
     height: 50px;
     margin-top: 0;
     padding-top: 18px;
     transition: 0.9s;
+    -webkit-text-stroke: 1px rgb(0, 0, 29);
+    cursor: pointer;
 }
 .containerForm h2:hover{
    
-    -webkit-text-stroke: 1px rgb(60, 255, 0);
+    -webkit-text-stroke: 1px rgb(0, 174, 255);
 }
 .containerData{
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgb(54, 54, 54);
     width: calc(45%);
     display: inline-block;
     position: relative;
-    
-    
-    right: 23%;
+    border: 2px solid rgb(0, 174, 255);
+    padding-top: 6px;
+    right: 22%;
     height: 550px;
 }
 .containerData button{
@@ -56,7 +58,7 @@
 }
 .condition div{
     border: solid rgba(255, 255, 255, 0.596) 1px; 
-    background-color: rgba(255, 255, 255, 0.226);
+    background-color: rgba(34, 30, 30, 0.226);
     width: fit-content; 
     display: block;
    
@@ -66,11 +68,12 @@
     display: inline-block;
     position: absolute;
     padding-top: 15px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgb(54, 54, 54);
+    border: 2px solid rgb(0, 174, 255);
     align-items: center;
     top: 90px;
     width: calc(38%);
-    right: 4%;
+    right: 6%;
     font-size: 20px;
     color: rgb(255, 0, 0);
     height: 538px;
@@ -81,43 +84,79 @@
     position: absolute;
     display: inline;
     color: white;
-    top: 250px;
-    right: 3%;
-    width:calc(40%);
-    margin-left: 10%;
+    top: 25%;
+    right: 8.5%;
+    width:calc(35%);
+    
 }
 .containerPlat div{
     display: inline-block;
     margin-right: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 5px 10px 5px;
+    margin-bottom: 5px;
+} 
+.containerPlat button{
+    appearance: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 3px;
+    cursor: pointer;
+}
+.containerPlat h3{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 }
 .containerGenre{
     position: absolute;
     display: inline;
     color: white;
-    top: 450px;
-    right: 3%;
-    width:calc(40%);
+    top: 65%;
+    right: 8.5%;
+    width:calc(35%);
     margin-left: 10%;
+   
     
 }
-.navHome{
-    position: relative;
-    right: 45%;
+.containerGenre h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 }
-.navHome img{
-    width: 50px;
-    height: 40px;
+.navHome{
     position: absolute;
+    left: 5%;
+    z-index: 1;
+    top: 3.5%;
+}
+.navHome svg{
+    height: 25px;
+    width: 30px;
+    position: relative;
     display: inline-block;
-    margin-top: -75px;
-    border: solid rgb(0, 0, 0) 2px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
+    
+    left: -2%;
+    color: white;
+   
+    background-image: linear-gradient(20deg, #0099ff, #0099ff, #00a2ff,#0099ff);
+    transition: background-position 0.2s;
+    
     transition: 0.5s;
    
 }
-.navHome img:hover{
-    border: solid rgb(60, 255, 0);
+.navHome svg:hover{
+    background-position: 2px -2px ;
+    
 }
    @media only screen and (max-width: 768px) {
     .containerForm{
