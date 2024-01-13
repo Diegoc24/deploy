@@ -6,7 +6,9 @@ import Detail from "./components/Detail/Detail";
 import Form from "./components/form/Form";
 import GameCreated from "./components/GameCreated/GameCreated";
 import axios from "axios";
-axios.defaults.baseURL = "https://backend-videogames-l2xp.onrender.com"
+
+const URL_API = process.env.REACT_APP_URL_API;
+axios.defaults.baseURL = URL_API
 
 function App() {
  
